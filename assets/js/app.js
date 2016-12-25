@@ -29,9 +29,9 @@ function displayTasteKidSearchData(data) {
 	}
 
 	else {
-		data.Similar.Results.forEach(function(item) {
+		data.Similar.Results.forEach(function(item) { 
 			results +=  '<p>' + item.Name + '</p>';
-			results +=  '<iframe src=' + item.yUrl + '>j</iframe>';
+			results +=  '<iframe src=' + item.yUrl + ' frameborder = "0" height="" width="" allowfullscreen>#document</iframe>';
 			//results +=	'<video><source src=' + item.yUrl + 'type = "video/mp4"></video>' ;
 			//results +=	'<a href="https://www.youtube.com/' + item.id.channelId + '"><button>view channel</button></a>';
 		});
@@ -48,4 +48,7 @@ function displayTasteKidSearchData(data) {
 		$("input[name='search']").val(" ");
 	});
 
-
+// let youtubeURL = NSURL(string: "https://www.youtube.com/embed/YQHsXMglC9A?autoplay=1") ;
+// let youtubeRequest = NSMutableURLRequest(URL: youtubeURL!); 
+// youtubeRequest.setValue("https://www.youtube.com", forHTTPHeaderField: "Referer"); 
+// webView.loadRequest(youtubeRequest);
