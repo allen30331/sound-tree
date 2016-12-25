@@ -32,14 +32,14 @@ function displayTasteKidSearchData(data) {
 		data.Similar.Results.forEach(function(item) { 
 			results +=  '<div class="row"><div class="col-6"><p>' + item.Name + '</p>'+
 			  			'<iframe src=' + item.yUrl + ' frameborder = "0" height="" width="" allowfullscreen>#document</iframe></div>'+
-			  			'<div class="col-6 bio">' + item.wTeaser.substring(0,300) + '</div></div>';
+			  			'<div class="col-6 bio">' + item.wTeaser.substring(0,375) + '<a class="read-more" href=' + item.wUrl + '> ...read more</a></div></div>';
 			//results +=  '<p class="bio">' + item.wTeaser + '</p>';
 			//results +=	'<video><source src=' + item.yUrl + 'type = "video/mp4"></video>' ;
 			//results +=	'<a href="https://www.youtube.com/' + item.id.channelId + '"><button>view channel</button></a>';
 		});
 	}
 	
-	$(".about").html(results);
+	$(".matches").html(results);
 }
 
 
