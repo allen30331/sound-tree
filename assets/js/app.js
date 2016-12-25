@@ -22,18 +22,18 @@ function getDataFromApi(searchTerm,callBack) {
 
 function displayTasteKidSearchData(data) {
 	console.log(data);
-	/*var results = ' ';
-	if (data.items) {
-		data.items.forEach(function(item) {
-			results +=  '<a href="https://www.youtube.com/watch?v=' + item.id.videoId + '"><h3 class="title">' + item.snippet.title + '</h3></a>';
-			results +=	'<a href="https://www.youtube.com/watch?v=' + item.id.videoId + '"><img src="' + item.snippet.thumbnails.medium.url + '"></a><br>';
-			results +=	'<a href="https://www.youtube.com/' + item.id.channelId + '"><button>view channel</button></a>';
+	var results = ' ';
+	if (data.Results) {
+		data.Results.forEach(function(item) {
+			results +=  '<p>' + item.Name + '</p>';
+			//results +=	'<a href="https://www.youtube.com/watch?v=' + item.id.videoId + '"><img src="' + item.snippet.thumbnails.medium.url + '"></a><br>';
+			//results +=	'<a href="https://www.youtube.com/' + item.id.channelId + '"><button>view channel</button></a>';
 		});
 	}
 	else {
 		results += '<p> No Results </p>';
 	}
-	$(".results").html(results);*/
+	$(".results").html(results);
 }
 
 
