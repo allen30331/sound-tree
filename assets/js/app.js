@@ -9,7 +9,7 @@ function getDataFromApi(searchTerm,callBack) {
 			k: "252506-SoundTre-FAA6N6GS",
 			type: "music",
 			info: 1,
-			limit: 20,
+			limit: 12,
 			callback: 'jsonp',
 			q: searchTerm
 	},
