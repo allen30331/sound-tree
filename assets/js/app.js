@@ -23,16 +23,20 @@ function getDataFromApi(searchTerm,callBack) {
 function displayTasteKidSearchData(data) {
 	console.log(data);
 	var results = ' ';
-	if (data.Results) {
-		data.Results.forEach(function(item) {
+	
+	 if (data.Similar.Results.length === 0) {
+		results += '<p> No Results </p>';
+	}
+
+	else {
+		data.Similar.Results.forEach(function(item) {
 			results +=  '<p>' + item.Name + '</p>';
-			//results +=	'<a href="https://www.youtube.com/watch?v=' + item.id.videoId + '"><img src="' + item.snippet.thumbnails.medium.url + '"></a><br>';
+			results +=  '<iframe src=' + item.yUrl + '>j</iframe>';
+			//results +=	'<video><source src=' + item.yUrl + 'type = "video/mp4"></video>' ;
 			//results +=	'<a href="https://www.youtube.com/' + item.id.channelId + '"><button>view channel</button></a>';
 		});
 	}
-	else {
-		results += '<p> No Results </p>';
-	}
+	
 	$(".results").html(results);
 }
 
