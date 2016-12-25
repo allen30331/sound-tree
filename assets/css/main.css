@@ -1,3 +1,7 @@
 .search-box, .title {
 	text-align: center;
 }
+
+.bio {
+    padding-top: 50px;
+}
