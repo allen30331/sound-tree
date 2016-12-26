@@ -105,3 +105,17 @@ p.no-results {
     margin-left: 50%;
     transform: translateX(-50%);
 }
+
+/* Non-mobile, grid*/
+@media only screen and (max-width: 640px) {
+
+  .container {
+    margin-top: 0px;
+	}
+
+  .bio {
+    margin-top: 0px;
+	}
+
+
+}

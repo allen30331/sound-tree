@@ -74,29 +74,3 @@
   }
 }
 
-/* Non-mobile, grid 
-@media only screen and (max-width: 320px) {
-
-  body {
-    background-image: url("http://bilog.bimeks.com.tr/wp-content/uploads/2014/12/G%C4%B0R%C4%B0%C5%9E-G%C3%96RSEL%C4%B0.jpg");
-    background-attachment: fixed;
-    background-size: cover;
-  }
-
-  input.js-query {
-    padding: 5px;
-    border-radius: 4px;
-    width: 75%;
-    border: none;
-}
-
-  .container {
-    margin-top: 50px;
-}
-
-  .bio {
-    margin-top: -30px;
-  }
-
-
-}*/
