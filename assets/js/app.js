@@ -25,7 +25,13 @@ function displayTasteKidSearchData(data) {
 	var results = ' ';
 	
 	 if (data.Similar.Results.length === 0) {
-		results += '<p> No Results </p>';
+		results += '<div class="container">'+ 
+						'<div class="row">'+
+ 							'<div class="col-6 no-results">'+
+  								'<p>sorry, we don\'t know them, try again</p>'+
+  							'</div>'+
+						'</div>'+
+					'</div>';
 	}
 
 	else {
