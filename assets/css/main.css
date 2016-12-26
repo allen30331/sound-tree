@@ -1,18 +1,24 @@
 body {
-	background-image: url("http://freshlytechy.com/wp-content/uploads/2013/04/EVNTLIVE-Offers-Live-Concert-Streaming-Platform.jpg");
+	background-image: url("http://bilog.bimeks.com.tr/wp-content/uploads/2014/12/G%C4%B0R%C4%B0%C5%9E-G%C3%96RSEL%C4%B0.jpg");
     background-attachment: fixed;
+    background-size: cover;
 }
 
 .search-box, .title {
 	text-align: center;
 }
 
+
 .bio {
     margin-top: 90px;
-    padding-left: 30px;
-    padding-right: 30px;
+    /* padding-left: 30px; */
+    /* padding-right: 30px; */
     line-height: 20px;
+    background-color: rgb(221, 241, 248);
+    padding: 10px 30px;
+    border-radius: 5px;
 }
+
 
 
 iframe {
@@ -31,10 +37,38 @@ iframe {
 p.name {
     font-weight: 700;
     font-size: 1.5em;
+    background-color: rgb(221, 241, 248);
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 0px;
 }
 
 a.read-more {
     text-decoration: none;
     color: black;
     font-weight: 700;
+}
+
+.sound {
+    font-weight: 400;
+}
+
+header h1 {
+    font-size: 4em;
+    margin: 0.67em 0;
+    color: #e3ebef;
+}
+
+input.js-query {
+    padding: 5px;
+    border-radius: 4px;
+    width: 40%;
+    border: none;
+}
+
+button {
+    height: 28px;
+    border: none;
+    border-radius: 4px;
 }
