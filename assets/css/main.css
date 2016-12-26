@@ -13,12 +13,11 @@
 
 .bio {
     margin-top: 90px;
-    /* padding-left: 30px; */
-    /* padding-right: 30px; */
     line-height: 20px;
-    background-color: rgb(221, 241, 248);
+    background-color: #5fc5e9;
     padding: 10px 30px;
     border-radius: 5px;
+    color: #414141;
 }
 
 
@@ -37,13 +36,14 @@ iframe {
 }
 
 p.name {
-    font-weight: 700;
+    font-weight: 400;
     font-size: 1.5em;
-    background-color: rgb(221, 241, 248);
+    background-color: #5fc5e9;
     display: inline-block;
     padding: 5px;
     border-radius: 5px;
     margin-bottom: 0px;
+    color: #414141;
 }
 
 a.read-more {
@@ -52,6 +52,10 @@ a.read-more {
     font-weight: 700;
 }
 
+a.read-more:hover {
+    color: #0380bf;
+    font-weight: 700;
+}
 .sound {
     font-weight: 400;
 }
@@ -92,14 +96,14 @@ p.no-results {
 p.no-results {
     text-align: center;
     font-size: 1.25em;
-    background-color: rgb(221, 241, 248);
+    background-color: #0380bf;
     padding: 3px;
     border-radius: 3px;
     display: inline-block;
 }
 
 .no-results p {
-    background-color: rgb(221, 241, 248);
+    background-color: #0380bf;
     padding: 5px;
     text-align: center;
     border-radius: 3px;
@@ -125,6 +129,9 @@ p.no-results {
   .name-video {
     margin-bottom: 10px;
     }
-
+    
+    input.js-query {
+    width: 75%;
+}
 
 }
