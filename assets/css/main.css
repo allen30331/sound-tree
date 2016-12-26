@@ -1,5 +1,6 @@
 body {
-	background-image: url("background.jpg");
+	background-image: url("http://freshlytechy.com/wp-content/uploads/2013/04/EVNTLIVE-Offers-Live-Concert-Streaming-Platform.jpg");
+    background-attachment: fixed;
 }
 
 .search-box, .title {
