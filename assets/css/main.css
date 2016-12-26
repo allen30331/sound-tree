@@ -64,6 +64,12 @@ header h1 {
     font-size: 4em;
     margin: 0.67em 0;
     color: #0380bf;
+    margin-bottom: 0px;
+}
+
+h3 {
+    margin-top: 0px;
+    color: #0380bf;
 }
 
 input.js-query {
