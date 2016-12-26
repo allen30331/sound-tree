@@ -36,8 +36,8 @@ function displayTasteKidSearchData(data) {
 
 	else {
 		data.Similar.Results.forEach(function(item) { 
-			results +=  '<div class="row matches"><div class="col-6 video"><p class="name">' + item.Name + '</p>'+
-			  			'<iframe src=' + item.yUrl + ' frameborder = "0" height="" width="" allowfullscreen>#document</iframe></div>'+
+			results +=  '<div class="row matches"><div class="col-6"><div class="name-video"><p class="name">' + item.Name + '</p>'+
+			  			'<iframe src=' + item.yUrl + ' frameborder = "0" height="" width="" allowfullscreen>#document</iframe></div></div>'+
 			  			'<div class="col-6 "><div class="bio">' + item.wTeaser.substring(0,375) + ' <a class="read-more" href=' + item.wUrl + '>...read more</a></div></div></div>';
 			//results +=  '<p class="bio">' + item.wTeaser + '</p>';
 			//results +=	'<video><source src=' + item.yUrl + 'type = "video/mp4"></video>' ;
