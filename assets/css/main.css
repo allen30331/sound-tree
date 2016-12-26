@@ -103,11 +103,11 @@ p.no-results {
 }
 
 .no-results p {
-    background-color: #0380bf;
     padding: 5px;
     text-align: center;
     border-radius: 3px;
     font-size: 1.25em;
+    color: #0380bf;
 }
 
 .no-results {
