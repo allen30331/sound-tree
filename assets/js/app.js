@@ -9,7 +9,7 @@ function getDataFromApi(searchTerm,callBack) {
 			k: "252506-SoundTre-FAA6N6GS",
 			type: "music",
 			info: 1,
-			limit: 50,
+			limit: 15,
 			callback: 'jsonp',
 			q: searchTerm
 	},
@@ -52,18 +52,5 @@ function displayTasteKidSearchData(data) {
 		$("input[name='search']").val(" ");
 	});
 
-	$(function () {
-    $("div").slice(0, 4).show();
-    $("#loadMore").on('click', function (e) {
-        e.preventDefault();
-        $("div:hidden").slice(0, 4).slideDown();
-        if ($("div:hidden").length == 0) {
-            $("#load").fadeOut('slow');
-        }
-        $('html,body').animate({
-            scrollTop: $(this).offset().top
-        }, 1500);
-    });
-});
 
 
