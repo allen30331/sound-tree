@@ -2,10 +2,6 @@
 	text-align: center;
 }
 
-body {
-    background-image: url('../images/background.png');
-}
-
 .bio {
     margin-top: 90px;
     line-height: 20px;
@@ -61,7 +57,7 @@ header h1 {
 
 h3 {
     margin-top: 0px;
-    color: #00293e;
+    color: #0380bf;
 }
 
 input.js-query {
