@@ -1,9 +1,10 @@
-
-
 .search-box, .title {
 	text-align: center;
 }
 
+body {
+    background-image: url('../images/background.png');
+}
 
 .bio {
     margin-top: 90px;
@@ -60,7 +61,7 @@ header h1 {
 
 h3 {
     margin-top: 0px;
-    color: #0380bf;
+    color: #00293e;
 }
 
 input.js-query {
