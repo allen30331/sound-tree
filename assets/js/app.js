@@ -52,5 +52,10 @@ function displayTasteKidSearchData(data) {
 		$("input[name='search']").val(" ");
 	});
 
+	(function getDefaultData() {
+		var defaultQuery = 'drake';
+		getDataFromApi(defaultQuery, displayTasteKidSearchData);
+	})();
+
 
 
