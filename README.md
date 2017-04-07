@@ -33,4 +33,4 @@
 
 # User Flow
 
-> ![Alt text](./assets/images/user-flow.png)
+> ![image](./assets/images/user-flow.png)
