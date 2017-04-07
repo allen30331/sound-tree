@@ -29,3 +29,8 @@
 * CSS
 * Javascript
 * JQuery
+
+
+# User Flow
+
+> ![Alt text](./assets/images/user-flow.png)
