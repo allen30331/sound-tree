@@ -15,4 +15,4 @@
 
 # Soundtree
 
-> is a music recommendation app, designed to suggest music based on music the user already likes.
+> [Soundtree](https://allen30331.github.io/sound-tree/) is a music recommendation app, designed to suggest music based on music the user already likes.
