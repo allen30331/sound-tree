@@ -1,4 +1,4 @@
-<h2>soundTree</h2>
+<!-- <h2>soundTree</h2>
 <p> First portfolio project for <a href="https://www.thinkful.com/">Thinkful</a>. <a href="https://allen30331.github.io/sound-tree/">soundTree</a> is a music recommendation app, designed to suggest music based on music the user already likes.</p>
 <img src="assets/images/sound-tree-screenshot.png">
 
@@ -11,4 +11,6 @@
 	<li>CSS</li>
 	<li>Javascript</li>
 	<li>JQuery</li>
-</ul>
+</ul> -->
+
+#Soundtree
