@@ -14,3 +14,5 @@
 </ul> -->
 
 # Soundtree
+
+> is a music recommendation app, designed to suggest music based on music the user already likes.
