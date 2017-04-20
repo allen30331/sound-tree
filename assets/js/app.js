@@ -53,7 +53,7 @@ function displayTasteKidSearchData(data) {
 	});
 
 	(function getDefaultData() {
-		var defaultQuery = 'drake';
+		var defaultQuery = 'rolling stones';
 		getDataFromApi(defaultQuery, displayTasteKidSearchData);
 	})();
 
